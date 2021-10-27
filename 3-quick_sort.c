@@ -59,7 +59,7 @@ void quicksort(int *array, ssize_t low, ssize_t high, size_t size)
 	{
 		pivot = partition(array, low, high, size);
 		quicksort(array, low, pivot - 1, size);
-		qiucksort(array, pivot + 1, high, size);
+		quicksort(array, pivot + 1, high, size);
 	}
 }
 
