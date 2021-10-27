@@ -31,6 +31,6 @@ void insertion_sort_list(listint_t **list)
 				swap_node->prev->next = swap_node;
 			print_list(*list);
 		}
-		swap_node = next_swap;
+		swap_node = swap_next;
 	}
 }
